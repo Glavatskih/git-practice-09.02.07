@@ -18,7 +18,7 @@ namespace CalculatorApp
         {
             if (b == 0)
             {
-                throw new DivideByZeroException("Division by zero is not allowed.");
+                throw new DivideByZeroException("Division by zero");
             }
             return a / b;
         }
